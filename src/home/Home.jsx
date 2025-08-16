@@ -28,8 +28,8 @@ import Gallery19 from '../assets/gallery-19.jpg';
 import HymnsSlider from '../components/HymnalSlider';
 import OldPaper from '../assets/old-paper.jpg';
 import Tributes from '../assets/Tributes';
-import TributeBg from '../assets/tribute1.jpg'
-import TributeBg2 from '../assets/tribute2.jpg'
+import TributeBg from '../assets/tribute1.jpg';
+import GratitudeBg from '../assets/gratitude.jpg';
 
 const images = [
   Gallery1,
@@ -78,21 +78,24 @@ const Home = () => {
 
   const navLinks = (
     <ul className='flex flex-col lg:flex-row gap-4 lg:gap-8 text-lg'>
-      <li>
-        <a href='#hymn' className={`${textColor} cursor-pointer`}>
-          {' '}
-          Home
-        </a>
+      <li className={`${textColor} cursor-pointer`}>
+         Home
       </li>
       <li className={`${textColor} cursor-pointer`}>
         <a href='#biography'>Biography</a>
       </li>
-      <li className={`${textColor} cursor-pointer`}>Hymns</li>
-      <li className={`${textColor} cursor-pointer`}>Gallery</li>
+      <li className={`${textColor} cursor-pointer`}>
+        <a href='#hymn'>Hymn</a>
+      </li>
+      <li className={`${textColor} cursor-pointer`}>
+        <a href='#gallery'>Gallery</a>
+      </li>
       <li className={`${textColor} cursor-pointer`}>
         <a href='#tribute'>Tributes</a>
       </li>
-      <li className={`${textColor} cursor-pointer`}>Appreciation</li>
+      <li className={`${textColor} cursor-pointer`}>
+        <a href='#gratitude'>Appreciation</a>
+      </li>
     </ul>
   );
 
@@ -130,7 +133,7 @@ const Home = () => {
       </div>
 
       {/* Slider */}
-      <div className='h-[500px] md:h-[90vh] lg:h-screen mt-[80px]'>
+      <div id='gallery' className='h-[500px] md:h-[90vh] lg:h-screen mt-[80px]'>
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={10}
@@ -205,11 +208,11 @@ const Home = () => {
               fellowship, a member of the Scripture Union and a chorister at the
               Anglican Church. <br />
               <br />
-              She was married to Rev. Chidi Edeh of Abor village, Eha-Amufu, Isi-Uzo LGA
-              of Enugu State. The marriage was blessed with 3 children. She was
-              a wife, mother, grandmother, aunt, and sister who touched a lot of
-              lives with her acts of kindness, spiritual mentorship and
-              philanthropy. <br />
+              She was married to Rev. Chidi Edeh of Abor village, Eha-Amufu,
+              Isi-Uzo LGA of Enugu State. The marriage was blessed with 3
+              children. She was a wife, mother, grandmother, aunt, and sister
+              who touched a lot of lives with her acts of kindness, spiritual
+              mentorship and philanthropy. <br />
               <br />
               She is survived and will be dearly missed by her husband, children
               and 5 grandchildren. <br />
@@ -236,7 +239,9 @@ const Home = () => {
           minHeight: '70vh',
         }}>
         <div className='absolute inset-0 bg-black opacity-85'></div>
-        <p className='font-love text-5xl md:text-6xl lg:text-6xl text-amber-400 z-10'>Tributes</p>
+        <p className='font-love text-5xl md:text-6xl lg:text-6xl text-amber-400 z-10'>
+          Tributes
+        </p>
         <div className='relative z-10 flex w-full h-auto items-center justify-center'>
           {/* Left-side image */}
           <img
@@ -271,7 +276,32 @@ const Home = () => {
         </div>
       </div>
 
-      <div></div>
+      <div
+        id='gratitude'
+        className='flex flex-col items-center justify-center bg-fixed px-5 md:px-6 lg:px-15 overflow-hidden gap-10 py-20 bg-cover relative z-0 bg-center bg-no-repeat'
+        style={{
+          backgroundImage: `url(${GratitudeBg})`,
+          width: '100%',
+          minHeight: '70vh',
+        }}>
+        <div className='absolute inset-0 bg-black opacity-85'></div>
+        <p className='font-love text-5xl md:text-6xl lg:text-6xl text-amber-400 z-10'>
+          Appreciation
+        </p>
+        <p className='z-10 w-full lg:w-[70vh] text-justify'>
+          We, the family of Pastor Chidi .I. Edeh wishes to appreciate your
+          presence at the funeral ceremony of our wife, mother and grandmother,
+          late Mrs. Edna Edeh. Your sacrifices, prayers, financial, spiritual
+          and other support to our family ensured that today was a success. We
+          therefore declare that God shall grant everyone a safe return to our
+          individual bases and bless each one of you abundantly. May He always
+          answer when you call and grant your requests. Amen. <br /><br />
+
+          Signed: <br />
+          Pastor Chidi I. Edeh <br />
+          For the family <br />
+        </p>
+      </div>
     </div>
   );
 };

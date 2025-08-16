@@ -59,7 +59,7 @@ const Tributes = [
     },
     {
         title: "Tribute to Mummy Edna",
-        tribute: "You may have passed on, but your memories will always live on within us. Thank you for your sacrifices, care, concern, love, and everything you have done for me, and my family. You provided us with shelter when we hadn’t a place to live. I will be forever grateful and thankful to you. I know you’re in a better place, in the bosom of the Lord. \n\nAdieu Ezinne, \nAdieu my co-wife, \nAdieu nwanyi oma. \n\nYour co-wife, \nEve Blessing Chinyere. \n(Mama Ebube)."
+        tribute: "You may have passed on, but your memories will always live on within us. Thank you for your sacrifices, care, concern, love, and everything you have done for me, and my family. You provided us with shelter when we hadn’t a place to live. I will be forever grateful and thankful to you. I know you’re in a better place, in the bosom of the Lord. \n\nAdieu Ezinne, \nAdieu my co-wife, \nAdieu nwanyi oma. \n\nYour co-wife, \nEbeh Blessing Chinyere. \n(Mama Ebube)."
     },
     {
         title: "TRIBUTE TO BELOVED SISTER ",
