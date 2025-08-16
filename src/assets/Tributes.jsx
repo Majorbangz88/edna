@@ -76,7 +76,7 @@ const Tributes = [
     {
         title: "",
         tribute: "",
-        image: <img src={ChurchTribute} alt="" />
+        image: <img src={ChurchTribute} alt="" className='w-full h-auto lg:w-[55vh] lg:h-[75vh]' />
     },
     
 ]
