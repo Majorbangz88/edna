@@ -28,6 +28,8 @@ import Gallery19 from '../assets/gallery-19.jpg';
 import HymnsSlider from '../components/HymnalSlider';
 import OldPaper from '../assets/old-paper.jpg';
 import Tributes from '../assets/Tributes';
+import TributeBg from '../assets/tribute1.jpg'
+import TributeBg2 from '../assets/tribute2.jpg'
 
 const images = [
   Gallery1,
@@ -163,7 +165,7 @@ const Home = () => {
         }}>
         <div className='absolute inset-0 bg-black opacity-85'></div>
         <div className='relative z-10 flex flex-col items-center gap-10 justify-center'>
-          <p className='font-bold font-love text-amber-400 text-xl md:text-6xl lg:text-6xl decoration0white'>
+          <p className='font-bold font-love text-amber-400 text-4xl md:text-6xl lg:text-6xl decoration0white'>
             Biography of Late. Mrs Edna Edeh
           </p>
           <div className='flex gap-10 '>
@@ -203,7 +205,7 @@ const Home = () => {
               fellowship, a member of the Scripture Union and a chorister at the
               Anglican Church. <br />
               <br />
-              She was married to Rev. Chidi Edeh of Abor, Eha-Amufu, Isi-Uzo LGA
+              She was married to Rev. Chidi Edeh of Abor village, Eha-Amufu, Isi-Uzo LGA
               of Enugu State. The marriage was blessed with 3 children. She was
               a wife, mother, grandmother, aunt, and sister who touched a lot of
               lives with her acts of kindness, spiritual mentorship and
@@ -229,12 +231,12 @@ const Home = () => {
         id='tribute'
         className='flex flex-col items-center justify-center bg-fixed px-5 md:px-6 lg:px-15 overflow-hidden gap-10 py-20 bg-cover relative z-0 bg-center bg-no-repeat'
         style={{
-          backgroundImage: `url(${OldPaper})`,
+          backgroundImage: `url(${TributeBg})`,
           width: '100%',
           minHeight: '70vh',
         }}>
         <div className='absolute inset-0 bg-black opacity-85'></div>
-        <p className='font-love text-2xl md:text-6xl lg:text-6xl text-amber-400 z-10'>Tributes</p>
+        <p className='font-love text-5xl md:text-6xl lg:text-6xl text-amber-400 z-10'>Tributes</p>
         <div className='relative z-10 flex w-full h-auto items-center justify-center'>
           {/* Left-side image */}
           <img
@@ -261,6 +263,7 @@ const Home = () => {
                   <p className='whitespace-pre-line text-justify'>
                     {tribute.tribute}
                   </p>
+                  {tribute.image}
                 </div>
               </SwiperSlide>
             ))}

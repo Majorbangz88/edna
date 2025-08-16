@@ -1,7 +1,13 @@
+import ChurchTribute from '../assets/church_tribute.jpg';
+
 const Tributes = [
     {
         title: "A Tribute to my mother.",
         tribute: "Moi as we fondly call you, you were a back bone not just to me and my family but to a lot of other people. You were full of love, wisdom,  my greatest teacher and my source of inspiration. Above all you were a devout Christian and you made use of every opportunity you had to preach the word of God and to encourage people. \n\nYou sacrificed a lot just for us (your children) and a lot of other people to be comfortable even at the expense of your own comfort. You taught me the importance of hard work and honesty. You were kind and loving. You were my confidant and my biggest supporter. \n\nNne m, you were courageous, resilient, God fearing and you lived an impactful life. Your life was a testament of love, faith and strength. The void your departure to eternal glory has created in my heart can never be filled by anyone else but I find comfort knowing that your love will guide me always. I miss you so dearly, nnem, but I promise that you will forever be in my heart. \n\nJe nke oma nnem. \n\nChiziterem. (Ada gi)."
+    },
+    {
+        title: "To my dear mum, Ezinne m.",
+        tribute: "Your untimely death and glorious exit from this world has brought a lot of questions to my mind. Your undeserving death made me to think of the journey you took us your children through. Your life to us as a family was all about sacrifice. Your role to us as a mother was beyond motherly care but that of a sacrificial lamb who gave her all to see that her family stands tall. \n\nOh Ezinne m, It was because of you that we survived...Dear mum we'll forever miss you. We have this confidence that it is heaven's gain for you to Even though I cry in each passing day cause  it's been long I saw you. Today I glory in your faith in CHRIST JESUS which was undiluted. Today I flourish in your streams of prayers for us, cause I know that you've joined the HOSTS OF HEAVEN. \n\nChaii Ezinne m, It is with heavy heart of sorrow and grief I wish to bid you farewell not as of those who do not have hope, cause I know we will meet at the resurrection morning when the trumpet shall sound and the dead in CHRIST will rise. \n\nNne m Jee Nkeoma \nEzinne m Your dreams lives on.\n\nChukwunonyerem Edeh Jnr"
     },
     {
         title: "Tribute to a mother general. Mrs EDNA EDE (CNO Rtd)",
@@ -66,6 +72,11 @@ const Tributes = [
     {
         title: "Tribute To A Loving Mum!",
         tribute: "Losing Mommy is like losing a piece of my childhood. I will always remember you from our time at the Church. You were just a face in the church crowd; you were a beacon of warmth and kindness. Your gentle spirit and loving presence left an imprint on my heart that has lasted all these years. I left Enugu long ago, but the memories of you have never faded. I can still recall the comfort your presence brought, a feeling of being seen and cared for. Your legacy is one of pure love and grace, and I am so grateful to have known you.\n\nRest on Mommy! \nWith a heavy heart, \n\nOkpara Chinweuba Solomon"
+    },
+    {
+        title: "",
+        tribute: "",
+        image: <img src={ChurchTribute} alt="" />
     },
     
 ]
