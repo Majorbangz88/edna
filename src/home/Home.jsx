@@ -30,6 +30,7 @@ import OldPaper from '../assets/old-paper.jpg';
 import Tributes from '../assets/Tributes';
 import TributeBg from '../assets/tribute1.jpg';
 import GratitudeBg from '../assets/gratitude.jpg';
+import { FaHeart } from 'react-icons/fa';
 
 const images = [
   Gallery1,
@@ -78,9 +79,7 @@ const Home = () => {
 
   const navLinks = (
     <ul className='flex flex-col lg:flex-row gap-4 lg:gap-8 text-lg'>
-      <li className={`${textColor} cursor-pointer`}>
-         Home
-      </li>
+      <li className={`${textColor} cursor-pointer`}>Home</li>
       <li className={`${textColor} cursor-pointer`}>
         <a href='#biography'>Biography</a>
       </li>
@@ -295,11 +294,21 @@ const Home = () => {
           and other support to our family ensured that today was a success. We
           therefore declare that God shall grant everyone a safe return to our
           individual bases and bless each one of you abundantly. May He always
-          answer when you call and grant your requests. Amen. <br /><br />
-
+          answer when you call and grant your requests. Amen. <br />
+          <br />
           Signed: <br />
           Pastor Chidi I. Edeh <br />
           For the family <br />
+        </p>
+      </div>
+
+      <div className='flex flex-col items-center justify-center px-5 md:px-6 lg:px-15 py-7 gap-3 w-full bg-black'>
+        <hr className='text-white h-0.2 w-full lg:w-[90vh]' />
+
+        <p className='text-sm flex items-center justify-center gap-1 flex-wrap'>
+          Copyright © {new Date().getFullYear()} All rights reserved | This
+          template is made with <FaHeart className='text-[#d19f68]' /> by{' '}
+          <span className='text-[#d19f68] cursor-pointer'>Big Joe</span>
         </p>
       </div>
     </div>
