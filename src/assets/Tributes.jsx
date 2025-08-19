@@ -82,6 +82,10 @@ const Tributes = [
         tribute: "Losing Mommy is like losing a piece of my childhood. I will always remember you from our time at the Church. You were just a face in the church crowd; you were a beacon of warmth and kindness. Your gentle spirit and loving presence left an imprint on my heart that has lasted all these years. I left Enugu long ago, but the memories of you have never faded. I can still recall the comfort your presence brought, a feeling of being seen and cared for. Your legacy is one of pure love and grace, and I am so grateful to have known you.\n\nRest on Mommy! \nWith a heavy heart, \n\nOkpara Chinweuba Solomon"
     },
     {
+        title: "A Tribute to my  beloved Aunty.",
+        tribute: "I can't believe that you are really  gone forever. You were like a mother to me. How can I forget the role God  used you to play in my life? I was told that it was the first yam you planted as a child that was used to feed me when  my mother, your sister, was in the hospital\n\nRest on Mommy!When I was going naked  in Okigwe you clothed me. If it was not  for  you, I would have been a high school dropout. When I thought all hope was gone, God Almighty used you and your husband to restore hope back to me. You gave me money  to go back to school. Even though you didn't have the money but you promised me that you would do what ever it took to make sure I finished high school, and you did. \n\nThank you for all the sacrifice you made for me. If it was not you and God, I would not have been where I am today. Thank you for being there for me and my family.  You will be greatly missed, my beloved Aunty. \n\n I thank God Almighty that you repented of your sins and was baptized in Jesus' name according to Acts 2: 38. Also was filled with Holy Ghost according to Acts 2: 1-4. \n\n I pray that God will  give you rest in His Eternal Glory, Amen. Rest well my great Aunty.\n\nFrom: Rev. Mrs Florence Ejim."
+    },
+    {
         title: "",
         tribute: "",
         image: <img src={ChurchTribute} alt="" className='w-full h-auto lg:w-[55vh] lg:h-[75vh]' />
